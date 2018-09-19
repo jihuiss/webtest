@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+<style>
+
+
+
+.row{
+
+	border: 2px solid;
+	background-color: #ECE0F8;
+    padding:10px;
+    margin:10px;
+}
+
+.test{
+
+	background-color:#F2F2F2;
+	border:1px solid;
+}
+img{
+width : 80%;
+}
+</style>
+
+</head>
+<body>
+  
+<div class="container">
+  
+  
+  <h1>My First Bootstrap Page</h1>
+  <p>This part is inside a .container class.</p> 
+  <p>The .container class provides a responsive area in your website.</p>  
+
+	<div class="row">
+    	<h4> Title </h4>
+    </div>
+
+	<div class="row">
+    	<div class="col-2 "> </div>
+        <div class="col-8 test"> 
+       		<div class= "row test"> 
+            
+            	<div class= "col-sm-6"><img src = http://blogfiles.naver.net/MjAxODA4MjdfMTg3/MDAxNTM1MzY4MTY5NDQ0.buojLgKGRkfOldKA3mRPr-RLSwQKoWOWqhuts-lbe7sg.KvTL56FAXRV0nXiOYr4icW8CyMj5MJQO1xLtpIGPUcog.JPEG.phj8498/8wmj01w06l8bx023c8u8.jpg></div>
+                <div class= "col-sm-6">
+                <img src = http://blogfiles.naver.net/MjAxODA5MDlfMjc4/MDAxNTM2NDk5NjU2MzMx.ULDxc-OTkbzs9iK7pcPswiuer0Vw4UcZ5iTtvGSy4JMg.hl0wEz0VMne_DML4I0g16W5b0eBFFBNyTUmaH3Lzrikg.JPEG.dladusdk414a/IMG_8497.jpg></div>
+            
+            </div>
+            
+            
+            
+            <div class= "row test"> 
+            	<div class= "col-sm-6">
+                <img src = http://post.phinf.naver.net/MjAxODA4MjdfMjky/MDAxNTM1MzU4MjU5NzM4._T_zSH7kGhxc-eGfXJGMhRC7qLnLzszjIVmY5wju7nAg.b70rHFun_TbGwn4XoOqZvQVQbAxq7QDJw1a3H44Jpk8g.JPEG/IRZUY2rWbFGKY0ILLQVxO_QoCrEQ.jpg>
+                </div>
+                <div class= "col-sm-6">
+                <img src = https://post-phinf.pstatic.net/MjAxODA4MjdfMTU3/MDAxNTM1MzU4MjU5NjYx.yJXk5RFUKxnG0k2A5t9exEtI5weXCjnkc9dl8NgJWDUg.5kngVChQq2FN47qQW_t5BPnXUQZ3cNayprvdf2yx7hUg.JPEG/zzangjeolmi_39135702_234036613978762_1676890102921428992_n.jpg?type=w1200></div>
+        
+            </div>
+       		
+            
+            <div class= "row test"> Row 3</div>
+        </div>
+         <div class="col-2 "> </div>
+    
+    </div>
+	
+
+	
+      
+
+
+
+</div>
+
+
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>    
+</body>
+</html>
